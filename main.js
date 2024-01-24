@@ -18,3 +18,5 @@ scene.add(cube);
 scene.background = new THREE.Color( 0xbfe3dd );
 
 camera.position.z = -5;
+
+document.write("Test");
