@@ -1,1 +1,1 @@
-document.write("test lmao");
+document.body.innerHTML = "woag";
