@@ -1,0 +1,12 @@
+{
+    "posts": [
+        {
+            "time" : 1708484400,
+            "text" : "Hello, world!"
+        },
+        {
+            "time" : 1708484700,
+            "text" : "2nd poast"
+        }
+    ]
+}
