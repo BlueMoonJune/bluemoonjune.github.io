@@ -1,0 +1,176 @@
+@property --gradient-angle {
+  syntax: '<number>';
+  initial-value: 0px;
+  inherits: false;
+}
+
+.button, input {
+	transition: all 0.4s;
+	border-radius: 24px;
+	position: relative;
+	box-sizing: border-box;
+	margin: 4px;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #000;
+	border-color: #4ff;
+	color: #4ff;
+	min-height: 48px;
+	min-width: 48px;
+	padding: 12px;
+	overflow: hidden;
+}
+
+.button:hover {
+	border-color: #0000;
+	color: #000f;
+}
+
+.button:active {
+	color: #fff;
+	border-color: #fff;
+	box-shadow: 0 0 8px white;
+	transition: all 0s;
+}
+
+.button::before {
+	content: "";
+	background-image: linear-gradient(to right, #2df, #d2f);
+	position: absolute;
+	height: 100%;
+	top: 0;
+	width: 100%;
+	left: 0;
+	border-radius: inherit;
+	transition: all 0.4s;
+	z-index: 0;
+}
+
+.button > span {
+	z-index: 2;
+}
+
+.leftslide::before {
+	width: 100%;
+	left: -100%;
+}
+
+.leftslide:hover::before {
+	left: 0%;
+	width: 100%;
+}
+
+.midslide::before {
+	width: 0%;
+	left: 50%;
+}
+
+.midslide:hover::before {
+	left: 0%;
+	width: 100%;
+}
+
+.rightslide::before {
+	width: 100%;
+	left: 100%;
+}
+
+.rightslide:hover::before {
+	left: 0%;
+	width: 100%;
+}
+
+.flipup {
+	padding: 0px;
+}
+
+.flipup::before {
+	transform-origin: 86% 86%;
+	transform: rotate(-180deg);
+}
+
+.flipup:hover::before {
+	transform: rotate(0deg);
+}
+
+.button span {
+	position: relative;
+	z-index: 1;
+}
+.button i {
+	position: relative;
+	z-index: 1;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+* {
+	font-family: "Kode Mono";
+	font-weight: 800;
+}
+
+.main {
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	border: solid cyan;
+	border-width: 4px 0;
+}
+
+div.projectmain {
+	margin: 32 0 32 0;
+}
+
+div.project {
+	text-align: left;
+	max-width: 40%;
+	margin: 0 0 0 100px;
+	vertical-align: top;
+}
+
+.inline {
+	display: inline-block;
+}
+.projectimage {
+	width: 30%;
+	border: 4px solid #f0f;
+	border-radius: 16px;
+}
+
+
+h1.title {
+	font-family: "Tourney", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 500%;
+}
+
+h2 {
+	color: #0ff;
+}
+
+h2.title {
+	color: #fff;
+	font-family: "Tourney", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 200%;
+}
+
+@keyframes star {
+	from { opacity: 0; transform: translate(0px, 0px) rotate(0turn); }
+	50% { opacity: 1; transform: translate(0px, 64px) rotate(1.5turn); }
+	to { opacity: 0; transform: translate(0px, 128px) rotate(3turn); }
+}
+
+.star {
+	animation: star 5s linear infinite;
+	opacity: 0;
+	transform-origin: center;
+	display: inline-block;
+	position: absolute;
+	z-index: -100;
+}
