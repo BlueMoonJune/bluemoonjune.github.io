@@ -120,6 +120,10 @@ body {
 	border-width: 4px 0;
 }
 
+.container {
+	margin: 0 auto 0 auto;
+}
+
 div.projectmain {
 	margin: 32 0 32 0;
 }
