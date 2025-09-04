@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="42.999786mm"
+   height="22.999998mm"
+   viewBox="0 0 42.999786 22.999998"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="title.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="1.4997881"
+       originy="1.5"
+       spacingx="1"
+       spacingy="0.99999997"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+    <inkscape:page
+       x="0"
+       y="0"
+       width="42.999786"
+       height="22.999998"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect8"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,4.9999998,0,1 @ F,0,0,1,0,4.999999,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect6"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,4.9999998,0,1 @ F,0,0,1,0,4.999999,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <linearGradient
+       id="linearGradient18">
+      <stop
+         style="stop-color:#00ffff;stop-opacity:1;"
+         offset="0"
+         id="stop18" />
+      <stop
+         style="stop-color:#ff00ff;stop-opacity:1;"
+         offset="1"
+         id="stop19" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient18"
+       id="linearGradient6"
+       x1="3.5002122"
+       y1="80.000107"
+       x2="46.5"
+       y2="80.000107"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1.499788,-1.4999999)" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-3.5002122,-68.499997)">
+    <path
+       style="fill:none;fill-opacity:0.8;stroke:#ffffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 25,69.999997 a 4.9999994,4.9999994 45.000005 0 1 4.999999,5 v 10 A 4.999999,4.999999 135 0 1 25,89.999996"
+       id="path7"
+       inkscape:path-effect="#path-effect8"
+       inkscape:original-d="m 25,69.999997 h 4.999999 V 89.999996 H 25"
+       transform="matrix(-1,0,0,1,50,0)" />
+    <path
+       style="fill:none;fill-opacity:0.8;stroke:url(#linearGradient6);stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+       d="M 15,89.999996 V 69.999997 L 5.0000002,79.999996 H 34.999998 l 10.000001,-9.999999 v 19.999999"
+       id="path4" />
+    <path
+       style="fill:none;fill-opacity:0.8;stroke:#ffffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 25,69.999997 a 4.9999994,4.9999994 45.000005 0 1 4.999999,5 v 10 A 4.999999,4.999999 135 0 1 25,89.999996"
+       id="path6"
+       inkscape:path-effect="#path-effect6"
+       inkscape:original-d="m 25,69.999997 h 4.999999 V 89.999996 H 25" />
+  </g>
+</svg>
