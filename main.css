@@ -170,6 +170,12 @@ h2.title {
 	to { opacity: 0; transform: translate(0px, 128px) rotate(3turn); }
 }
 
+@keyframes star-still {
+	from { opacity: 0; transform: rotate(0turn); }
+	50% { opacity: 1; transform: rotate(0.5turn); }
+	to { opacity: 0; transform: rotate(1turn); }
+}
+
 .star {
 	animation: star 5s linear infinite;
 	opacity: 0;
@@ -177,4 +183,19 @@ h2.title {
 	display: inline-block;
 	position: absolute;
 	z-index: -100;
+}
+
+.star-still {
+	animation: star-still 2s linear infinite;
+	opacity: 0;
+	transform-origin: center;
+	display: inline-block;
+	position: absolute;
+	z-index: -100;
+}
+
+pre {
+	text-align: left;
+	white-space: pre-wrap;
+	tab-size: 4;
 }
